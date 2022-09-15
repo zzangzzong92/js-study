@@ -8,7 +8,7 @@ const result = add(1, 2);
 console.log(result);
 
 function fullName(firstName, lastName) {
-  return `${firstName} ${lastName}`;
+  return `${firstName} ${lastName} Hi!`;
 }
 let lastName = "장";
 let firstName = "종현";
