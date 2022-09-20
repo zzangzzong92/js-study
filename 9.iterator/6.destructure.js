@@ -46,6 +46,7 @@ const prop = {
 };
 
 function changeColor({ styles: { color } }) {
+  // 중첩된 구조분해 할당이라면 인자의 styles는 참고용이다. 변수가 아니기 때문에 함수안에서 접근불가
   console.log(color);
 }
 changeColor(prop);
