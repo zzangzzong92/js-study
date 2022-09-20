@@ -21,4 +21,4 @@ console.log(Symbol.keyFor(key1)); // 레지스트리를 통해 만든것이 아�
 const obj = { [k1]: "Hello", [Symbol("key")]: 1 };
 console.log(obj);
 console.log(obj[k1]);
-console.log(obj[Symbol("key")]);
+console.log(obj[Symbol("key")]); // console창 안의 symbol과 객체 안의 symbol은 전혀 다른 symbol이기 때문에 접근불가
