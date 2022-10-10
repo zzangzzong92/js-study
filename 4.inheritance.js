@@ -38,6 +38,6 @@ tiger1.hunt();
 console.log(dog1 instanceof Dog);
 console.log(dog1 instanceof Animal);
 console.log(dog1 instanceof Tiger);
-console.logtiger1  instanceof Tiger);
+console.log(tiger1 instanceof Tiger);
 console.log(tiger1 instanceof Tger);
- console.log(tiger1 instanceof Tiger);
+console.log(tiger1 instanceof Tiger);
