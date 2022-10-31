@@ -29,6 +29,7 @@ dog.printName(); // 고양이의 이름을 출력한다옹 : 멍멍 으로 출�
 
 //이것이 왜 문제가 되는 것일까?
 function printOnMonitor(printName) {
+  //함수를 콜백으로 전달하면 this라는 정보를 잃어버려서 호출자가 누구냐에 따라 this가 없어지거나 바뀜
   console.log("모니터를 준비하고!, 전달된 콜백을 실행!");
   printName();
 }
